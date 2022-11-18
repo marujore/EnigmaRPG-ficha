@@ -205,6 +205,13 @@ def obtain_atrb_father(atrb):
         return 'sobrenatural'
 
 
+#TODO mudar cores
+# For: 5A1D1C
+# Dex: 501C5E
+# Int: 1A275E
+# Wis: 2B441C
+# Cha: 523B1B
+# Sup: 261C1D
 def pie_heatmap(table, cmap=mpl.cm.tab10, vmin=None, vmax=None,inner_r=0.25, pie_args={}, atrb=None, ax=None):
     n, m = table.shape
     vmin= table.min().min() if vmin is None else vmin
@@ -248,3 +255,4 @@ def plot_ficha(ficha):
         plot_indiv(ficha.indiv, indiv, axs[x])
         x += 1
     plt.show();
+
