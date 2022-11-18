@@ -74,4 +74,4 @@ Uso
 Criação de Nova Ficha
 ---------------------
 
-Veja `examples.rst <./examples/example.py>`_.
+Veja `examples.py <./enigmarpg/examples/example.py>`_.
