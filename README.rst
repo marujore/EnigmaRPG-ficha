@@ -78,5 +78,5 @@ Veja `example.py <./enigmarpg/examples/example.py>`_.
 
 .. image:: https://raw.githubusercontent.com/marujore/EnigmaRPG-ficha/master/docs/img/ficha-example.png
     :target: https://raw.githubusercontent.com/marujore/EnigmaRPG-ficha/master/docs/img/ficha-example.png
-    :width: 240
+    :width: 720
     :alt: Ficha de Exemplo
