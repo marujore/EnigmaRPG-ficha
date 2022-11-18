@@ -13,7 +13,7 @@ from .tables import *
 all_nypes = ['♠', '♡', '♢', '♣']
 # initial_deck = cria_baralho(min=1, max=6, nypes=['♠'])
 
-
+#TODO inserir / remover carta
 class Ficha:
     nome = None
     indiv = indiv_zero

@@ -5,17 +5,17 @@ EnigmaRPG-ficha
 Este repositório traz o criador de ficha para o RPG Enigma.
 
 
-Instalação
-==========
+1. Instalação
+=============
 
 Por enquanto ele não tem um instalador nem interface gráfica, então para utiliza-lo é necessário executar por linha de comando.
 
-Requisitos
-----------
+2. Requisitos
+-------------
 - Python (preferencialmente > 3.8)
 
-Download ou clone o repositório
--------------------------------
+2.1 Download ou clone o repositório
+-----------------------------------
 
 .. code-block:: shell
 
@@ -27,13 +27,13 @@ Entre no diretório:
 
     $ cd EnigmaRPG-ficha
 
-Crie um ambiente Python separado no qual serão instaladas as dependências (opcional)
-------------------------------------------------------------------------------------
+2.2 Crie um ambiente Python separado no qual serão instaladas as dependências (opcional)
+----------------------------------------------------------------------------------------
 
 Você pode usar Conda ou Venv para criar ambientes isolados
 
-Ambiente com Conda (requer Conda instalado)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.3 (Opção 1: requer Conda instalado) Ambiente com Conda
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Crie um novo ambiente
 
@@ -47,8 +47,8 @@ Ative o ambiente
 
     $ conda activate enigma
 
-Ambiente com Venv (requer Venv instalado)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.3 (Opção 2: requer Venv instalado) Ambiente com Venv
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Crie um novo ambiente
 
@@ -61,17 +61,17 @@ Ative o ambiente
 .. code-block:: shell
 
     $ source venv/bin/activate
-Instale os pacotes necessários
-------------------------------
+3. Instale os pacotes necessários
+---------------------------------
 
 .. code-block:: shell
 
     $ pip3 install .[all]
 
-Uso
-===
+4. Uso
+======
 
-Criação de Nova Ficha
----------------------
+4.1 Criação de Nova Ficha
+-------------------------
 
-Veja `examples.py <./enigmarpg/examples/example.py>`_.
+Veja `example.py <./enigmarpg/examples/example.py>`_.
