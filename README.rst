@@ -19,13 +19,13 @@ Por enquanto ele não tem um instalador nem interface gráfica, então para util
 
 .. code-block:: shell
 
-    $ git clone https://github.com/marujore/EnigmaRPG-ficha.git
+    git clone https://github.com/marujore/EnigmaRPG-ficha.git
 
 Entre no diretório:
 
 .. code-block:: shell
 
-    $ cd EnigmaRPG-ficha
+    cd EnigmaRPG-ficha
 
 2.2 Crie um ambiente Python separado no qual serão instaladas as dependências (opcional)
 ----------------------------------------------------------------------------------------
@@ -39,13 +39,13 @@ Crie um novo ambiente
 
 .. code-block:: shell
 
-    $ conda create --name enigma python=3.8
+    conda create --name enigma python=3.8
 
 Ative o ambiente
 
 .. code-block:: shell
 
-    $ conda activate enigma
+    conda activate enigma
 
 2.3 (Opção 2: requer Venv instalado) Ambiente com Venv
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -54,19 +54,19 @@ Crie um novo ambiente
 
 .. code-block:: shell
 
-    $ python3 -m venv venv
+    python3 -m venv venv
 
 Ative o ambiente
 
 .. code-block:: shell
 
-    $ source venv/bin/activate
+    source venv/bin/activate
 3. Instale os pacotes necessários
 ---------------------------------
 
 .. code-block:: shell
 
-    $ pip3 install .[all]
+    pip3 install .[all]
 
 4. Uso
 ======
@@ -78,7 +78,7 @@ Execute `example.py <./enigmarpg/examples/example.py>`_.
 
 .. code-block:: shell
 
-    $ python ./examples/example.py
+    python ./examples/example.py
 
 .. image:: https://raw.githubusercontent.com/marujore/EnigmaRPG-ficha/master/docs/img/ficha-example.png
     :target: https://raw.githubusercontent.com/marujore/EnigmaRPG-ficha/master/docs/img/ficha-example.png
