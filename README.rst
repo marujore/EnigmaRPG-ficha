@@ -74,3 +74,4 @@ Uso
 Criação de Nova Ficha
 ---------------------
 
+Veja `examples.rst <./examples/example.py>`_.
